@@ -98,6 +98,6 @@ class RPCError(Exception):
 
 
 class UnknownError(RPCError):
-    CODE = 520
+    CODE = 350
     """:obj:`int`: Error code"""
     NAME = "Unknown error"
